@@ -114,6 +114,7 @@ ipython_config.py
 #   in version control.
 #   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
 .pdm.toml
+secrets.toml
 .pdm-python
 .pdm-build/
 

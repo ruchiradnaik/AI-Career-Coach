@@ -1,0 +1,71 @@
+1. AI Career Coach Chatbot (LLMs + RAG + Streamlit)
+A chatbot that gives career advice based on resumes, LinkedIn profiles, and job descriptions.
+
+💡 Uses: LLMs (GPT-4 or open models), LangChain or Haystack
+
+📄 Upload resume, get tips like “add XYZ project based on industry trend”
+
+🔍 Optional: Scrape job data from Naukri, LinkedIn
+
+🧠 Learnings: RAG (Retrieval-Augmented Generation), Vector DBs, NLP pipelines
+
+
+"C:\\Users\\ruchi\\OneDrive\\Desktop\\ai_career_coach\\data\\sample_resumes\\RUCHIR_ADNAIK_CV (2).pdf"
+
+
+
+🔥 1. Resume Scoring + Visual Feedback (Recommended next)
+📈 Give the user a score like 82/100 for a given job.
+
+Show “Why this score?”
+
+Show a progress bar, stars, badges, or “Fit Level: High/Medium/Low”
+
+🔧 Tech:
+
+Use same resume_skills and jd_skills
+
+Add simple scoring logic (e.g. score = len(matched) / len(jd_skills) * 100)
+
+Feed that to LLM for narrative explanation
+
+Optional: Use Streamlit’s progress bar or emojis
+
+💡 1. AI Project Recommendations (based on missing skills)
+Give the user smart project ideas like:
+
+“Build a Streamlit app using LangChain and FAISS”
+“Deploy a BERT classifier with FastAPI and Docker”
+
+🔧 LLM prompt based on missing_skills
+
+🧠 2. Resume Improvement Suggestions (LLM + RAG)
+Line-by-line suggestions for:
+
+Bullet rewriting
+
+Better verbs
+
+Project descriptions
+
+Could use:
+
+RAG from resume text chunks
+
+Templates
+
+💬 3. Multi-Turn Memory Chat (Chat History)
+Let user ask:
+
+“What else should I add?”
+“Now give me a project idea using FAISS”
+
+And the coach remembers their resume + job + past Qs.
+
+5. Compare Multiple Resumes for the Same JD
+Upload 2–3 resumes → rank them → suggest improvements
+
+🌐 6. Scrape JD From LinkedIn / Naukri URL
+Paste a URL → auto-extract job text → match it instantly
+
+Use BeautifulSoup, requests, or Playwright if needed.

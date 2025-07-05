@@ -1,0 +1,21 @@
+[
+  {
+    "role": "system",
+    "content": "You are a helpful AI career coach. Be clear, concise, and specific."
+  },
+  {
+    "role": "user",
+    "content": "will th",
+    "time": "13:21"
+  },
+  {
+    "role": "user",
+    "content": "will this resume help me get this job?",
+    "time": "13:22"
+  },
+  {
+    "role": "assistant",
+    "content": "This resume is a good start for applying to a Machine Learning or Data Science role that requires Python programming, OpenCV, TensorFlow, NLP, and possibly Deep Learning skills. The inclusion of relevant keywords such as 'deep learning', 'machine learning', 'data science', 'pytorch', 'git', 'azure', 'aws', 'data analysis', 'tensorflow', 'nlp', and 'javascript' will make it easier for recruiters to quickly identify your suitability for the role.\n\nHowever, note that having no work experience may be a disadvantage in some cases, so you may want to consider highlighting any relevant projects or internships you have done to demonstrate your practical skills. Additionally, you should consider tailoring your resume to each specific job application by emphasizing relevant keywords and experiences from the job description. Good luck with your job search!",
+    "time": "13:22"
+  }
+]
