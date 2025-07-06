@@ -1,1 +1,2 @@
-chmod +x setup.sh
+cd app
+streamlit run main.py
