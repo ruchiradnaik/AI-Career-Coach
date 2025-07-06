@@ -1,9 +1,9 @@
 streamlit
-PyPDF2
-python-docx
-pymupdf
-sentence-transformers
-faiss-cpu
-fpdf
 spacy
+PyPDF2
+pymupdf
+python-docx
+faiss-cpu
+sentence-transformers
+fpdf
 requests
