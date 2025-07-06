@@ -1,7 +1,17 @@
 import spacy
+from spacy.cli import download
 import re
 
-nlp = spacy.load("en_core_web_sm")
+def load_spacy_model():
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        download("en_core_web_sm")
+        return spacy.load("en_core_web_sm")
+
+nlp = load_spacy_model()
+
+
 
 # Same skills list as resume_parser.py
 COMMON_SKILLS = [

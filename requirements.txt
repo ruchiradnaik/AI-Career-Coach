@@ -2,11 +2,8 @@ streamlit
 PyPDF2
 python-docx
 pymupdf
-spacy
-en_core_web_sm
-ollama
 sentence-transformers
 faiss-cpu
 fpdf
-
-
+spacy
+requests
